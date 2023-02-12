@@ -5,9 +5,9 @@
 Even if you don't work with multiple nodejs versions, it's good to be able to switch to a different version. 
 The best tool for that is called `nvm` short for `node version manager` and can be found at this link [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
-When installing nvm pay attension to the lines printed in your terminal at the end of the installation process. Usually it will ask you to paste a line into one of `.profile` files for your shell. To which one is specific to the shell you are using.
-For example I am using bash shell so I had to paste it into my `~/.bashrc` 
-but if you use zsh shell you might need to paste it into `~/.zshrc`
+When installing nvm pay attension to the lines printed in your terminal at the end of the installation process. Usually it will ask you to paste a line into one of `.profile` files for your shell. 
+For example I am using the bash shell so I had to paste it into file called `~/.bashrc` 
+but if you use the zsh shell you might need to paste it into a different file called `~/.zshrc`
 
 
 After you install the 'nvm' you should be able to run the following command in your terminal.
@@ -16,14 +16,14 @@ After you install the 'nvm' you should be able to run the following command in y
 nvm --version # should print something like 0.39.0
 ```
 
-Then if you need to install a specific nodejs version, (for example 16.18.0 and 16.18.1) just use the instructions below.
+Then if you need to install a specific nodejs version, (for example 16.18.0 or 16.18.1) just use the instructions below.
 
 ```
 nvm install 16.18.0
 nvm install 16.18.1
 ```
 
-If you want 16.18.1 to be the default one when you open a new terminal, run the following command.
+If you want 16.18.1 to be the default one when you open a new terminal then run the following command.
 
 ```
 nvm alias default 16.18.1
