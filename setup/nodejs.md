@@ -2,39 +2,50 @@
 # Setting up nodejs
 
 
-Even if you do not work with multiple nodejs versions it is good to be able to switch to different version. 
-Best tool for that is called `node version manager` in short `nvm` and can be installed following instructions at [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+Even if you don't work with multiple nodejs versions, it's good to be able to switch to a different version. 
+The best tool for that is called `nvm` short for `node version manager` and can be found at this link [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
-After proper installation you should be able to run following command in your shell 
+When installing nvm pay attension to the lines printed in your terminal at the end of the installation process. Usually it will ask you to paste a line into one of `.profile` files for your shell. To which one is specific to the shell you are using.
+For example I am using bash shell so I had to paste it into my `~/.bashrc` 
+but if you use zsh shell you might need to paste it into `~/.zshrc`
 
+
+After you install the 'nvm' you should be able to run the following command in your terminal.
 
 ```sh
 nvm --version # should print something like 0.39.0
 ```
 
-Then to install a node type (below we will install two versions 16.18.0 and 16.18.1) 
+Then if you need to install a specific nodejs version, (for example 16.18.0 and 16.18.1) just use the instructions below.
 
 ```
 nvm install 16.18.0
 nvm install 16.18.1
 ```
 
-If you want 16.18.1 to be the default one when you open new terminal 
+If you want 16.18.1 to be the default one when you open a new terminal, run the following command.
 
 ```
 nvm alias default 16.18.1
 ```
 
+
 ### To automate switching to correct version of node in your project
 
-Create a file called `.nvmrc` in your project root folder.
-The content of the file is just a node version 
+Create a file called `.nvmrc` in your project main folder.
+The content of the file should be the nodejs version you want to use for your project.
 See example in this repository [here](../../.nvmrc)
-Then to switch to the correct node we just need to run 
+Finally, to switch to the correct nodejs go to the main folder of your project and type the following in the terminal. 
 
 ```
 nvm use
 ```
 
-Setting it us this way in every project is super handy as you no longer have to remember what node version yu should be running. Nvm will figure it out for you
+Setting it up this way in every project is super handy as you no longer have to remember what nodejs version you should pick. Nvm will figure it out for you 👍. The only command to remember will be `nvm use` 
+
+To learn all you can do with nvm you can always use the build in help by typing 
+
+```
+nvm --help
+```
 
