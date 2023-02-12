@@ -34,7 +34,7 @@ nvm alias default 16.18.1
 
 Create a file called `.nvmrc` in your project main folder.
 The content of the file should be the nodejs version you want to use for your project.
-See example in this repository [here](../../.nvmrc)
+See example in this repository [here](../../../.nvmrc)
 Finally, to switch to the correct nodejs go to the main folder of your project and type the following in the terminal. 
 
 ```
