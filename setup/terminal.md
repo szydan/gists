@@ -13,15 +13,15 @@ There is couple of reasons for it, for example:
 ### Speed
 
 Let's use a simple example to demonstrate the difference in speed 
-Imagen you have a folder in which you keep your notes, maybe 10 files with just few lines of text in each. Now you remember that in one of the notes you wrote something about your friend Alice and now you want to find this file out
+Imagine you have a folder in which you keep your notes, maybe 10 files with just few lines of text in each. Now you remember that in one of the notes you wrote something about your friend Alice and now you want to find this file out
 
 Below is a comparison using GUI and terminal.
 On the left, the user clicks through every file and looks at the preview to see if there is anything about Alice, (assuming the notes are short and the full content would fit into the preview box)
-On the right the user is doing the same opertion using the terminal and the command `grep`  
+On the right the user is doing the same operation using the terminal and the command `grep`  
 
 ![](img/alice.gif)
 
-That was only 5 files, now imagen if you have to search through a hundred or a thousand files. The sample directory with the notes files can be found [here](./terminal-example)
+That was only 5 files, now imagine if you have to search through a hundred or a thousand files. The sample directory with the notes files can be found [here](./terminal-example)
 
 ### Some of the often used terminal commands 
 
@@ -31,12 +31,12 @@ That was only 5 files, now imagen if you have to search through a hundred or a t
 * `cp` - to copy files
 * `rm` - to delete files and folders
 
-On unix based systems like Linux or MacOS every command line option help can be checked by using `man` command followed by the name of the command. 
+On unix based systems like Linux or MacOS every command line option help can be checked by using the `man` command followed by the name of the command.
 Other not build in commands usually have a build-in help that can be accessed by using `--help` flag.
 
 Examples
 
-If you wan to learn more aboud `ls` command you can use 
+If you want to learn more about `ls` command you can use 
 
 ```
 man ls
