@@ -42,7 +42,7 @@ If you want to learn more about `ls` command you can use
 man ls
 ```   
 
-If you ant to learn more about nvm 
+If you want to learn more about nvm 
 
 ```
 nvm --help
