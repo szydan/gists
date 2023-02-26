@@ -1,9 +1,9 @@
 # Hello world 
 
-First program in any new language is called a hello world program.
+The first program in any new language is called a hello world program.
 Hello world program prints "Hello World" text on the screen.
 
-Below an example in nodejs 
+Below is an example in nodejs
 
 ```js
 console.log("Hello World")
@@ -15,26 +15,26 @@ Then to execute it we will use the nodejs environment from our shell.
 Assuming 
 
 * you have nodejs installed. If not see how to do it [here](../setup/nodejs.md)
-* you have a file called hellow-world.js 
+* you have a file called hello-world.js 
 
 Type `node hello-world.js` in your terminal and hit enter
-You shoud see a "Hello world" printed on your screen.
+You should see a "Hello world" printed on your screen.
 
 ![](img/hello-world.png)
 
-### What has happend 
+### What has happened  
 
-In ou first program we 
+In our first program we
 
 * used a built-in global object called `console`
-* this object have few methods and we used one called `log`
+* this object has a few methods and we use one called `log`
 * we passed one parameter to the method. This parameter was the text "Hello World"
 * the `log` method 'took' our parameter and printed (logged) it on the screen
 
 ### Another example
 
 Let's do another example and print something more on the screen 
-This time lets print a text "Hello World" in a box. We will make the box sides using "|" and "-" characrers. Let's create a new file called hello-world2.js and save the folloving lines in it.
+This time lets print a text "Hello World" in a box. We will make the box sides using "|" and "-" characters. Let's create a new file called hello-world2.js and save the following lines in it.
 
 ```js
 console.log("---------------")
