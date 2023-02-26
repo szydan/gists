@@ -6,3 +6,8 @@ Collections of gists about programming
 [Terminal](setup/terminal.md)    
 [ide](setup/ide.md)   
 [nodejs](setup/nodejs.md)    
+
+### OSx
+
+[See hidden files](osx/see-all-files.md)    
+
