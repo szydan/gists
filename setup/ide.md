@@ -1,6 +1,6 @@
 # Setting up your editor (IDE)
 
-IDE short for Integrated Development Environment is much more than just a text editor.
+IDE, short for Integrated Development Environment is much more than just a text editor.
 These days it will come with all you need for your work
 
 * text editor
