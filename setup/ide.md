@@ -11,7 +11,7 @@ These days it will come with all you need for your work
 When you are just starting to program you only need a simple text editor.
 However the more you want to do the the more tools you will need and here an IDE comes handy.
 
-These days one of the most popular ones is VSCode and all the examples in this gists will use it.
+These days one of the most popular ones is VSCode, and all the examples in this gists will use it.
 It is free and can be installed from [here](https://code.visualstudio.com/) 
 
 ### Things good to do before you start using it 
