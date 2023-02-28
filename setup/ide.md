@@ -39,7 +39,7 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 
 #### Disable telemetry
 
-Another thing you might want to do is to disable the telemetry, if you do not want to send usage information back to Microsoft
+Another thing you might want to do is to disable the telemetry, if you don't want to send usage information back to Microsoft
 
 For MacOSx
 
