@@ -47,3 +47,58 @@ If you want to learn more about nvm
 ```
 nvm --help
 ```
+
+### Text editor from terminal level 
+
+It is good to also know some basic text editors available from terminal level.
+This is because your favorite graphical text editor might not always be installed 
+on someone else's computer while the terminal will always be there.
+Also if you work on a remote server machine the only thing which will be available to you will be the terminal.  
+The most popular one would be vi vim and nano. You do not have to be a super user and know all the shortcuts, 
+but it can be extremely useful if you can to basic operations like 
+
+* create a new file
+* open existing file 
+* edit it 
+* save it
+
+Below examples how to do it in vim editor 
+
+To crete a new file or open and existing file
+
+```
+vim mynewfile.txt
+```
+
+To make an edition, press the letter "i" to switch the editor into editing mode
+Move the cursor to the place you would like to edit and start typing 
+
+To save the changes press ESC then shift + semicolon key 
+When the semicolon symbol appears at the bottom left corner you are now in command mode
+Type 
+
+```
+:wq
+```
+That means write and quit
+
+Now check if your changes were saved by using less command 
+
+```
+less mynewfile.txt
+```
+
+Note: 
+Sometimes when you have to create a file the contains a single line you can also use an echo command 
+For example to create a file called mynewfile.txt which should contain only the line `this is a test` use 
+
+```
+echo "this is a test" > mynewfile.txt
+```
+
+The above will replace any previous content in the file.
+To append a new line to the same file you can use 
+
+```
+echo "this is a new test" >> mynewfile.txt
+```
