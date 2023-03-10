@@ -47,3 +47,63 @@ If you want to learn more about nvm
 ```
 nvm --help
 ```
+
+### Text editor from terminal level 
+
+It is good to know some basic text editors available from the terminal level.
+This is because your favorite graphical text editor might not always be installed 
+on someone else's computer while the terminal will always be there.
+Also if you work on a remote server machine the only thing which will be available to you will be the terminal.  
+The most popular one would be vi, vim and nano. You don't have to be a super user and know all the shortcuts,
+but it can be extremely useful if you can do basic operations like: 
+
+* create a new file
+* open existing file 
+* edit it 
+* save it
+
+Below are examples on how to do it in the vim editor
+
+To crete a new file or open and existing file
+
+```
+vim myfile.txt
+```
+
+The editor will start in the terminal, vim editor has two 'modes' of operation:
+    
+* Editor mode - in which you can type the and edit the text and 
+* Command mode - where you can type commands to save, quit etc 
+By default it starts in operations mode, to switch to editor mode press the letter "i" 
+Move the cursor to the place you would like to edit and start typing. 
+
+To save the changes you have to switch to `Command mode`
+To do it press ESC then shift + semicolon key
+When the semicolon symbol appears at the bottom left corner it means you are in command mode.
+Type `:wq` which means write and quit
+
+Now check if your changes were saved by using the `less` command
+
+```
+less myfile.txt
+```
+
+Note: 
+The echo command can be used to create small files or to add a line at the end of an existing file
+To create a file with a single line that contains the word "test" run the following command:
+
+```
+echo "test" > myfile.txt
+```
+
+To add a new line to the same file you can use 
+
+```
+echo "test1" >> myfile.txt
+```
+
+To see the content of the file use the `less` command 
+
+```
+less myfile.txt
+```

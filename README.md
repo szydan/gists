@@ -11,6 +11,6 @@ Collections of gists about programming
 
 [See hidden files](osx/see-all-files.md)    
 
-#### Simple programs
+### Simple programs
 
 [nodejs](nodejs/hello-world.md)    
