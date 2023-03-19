@@ -34,5 +34,5 @@ const letters = text.split('');
 // Iterate over the array of letters and count them
 updateLetterCount(letterCount, letters)
 
-// print results in alphabetical order
+// print the results in alphabetical order
 printResults(letterCount)

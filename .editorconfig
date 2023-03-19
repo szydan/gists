@@ -14,7 +14,7 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 
 # override the above rule to prevent removal of the new line from package.json files
-# which is always added by yarn and the IDE is always trying to remove it on save according to the above rule
+# which is always added by yarn and the IDE is always trying to remove it on save according to the rule above
 [package.json]
 insert_final_newline = true
 trim_trailing_whitespace = true

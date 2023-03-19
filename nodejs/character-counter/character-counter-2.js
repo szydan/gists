@@ -41,10 +41,10 @@ readableStream.on('data', (chunk) => {
 });
 
 readableStream.on('end', (chunk) => {
-  // print results in alphabetical order
   if (chunk) {
     const letters = chunk.toString().split('');
     updateLetterCount(letterCount, letters)
   }
+  // print the results in alphabetical order
   printResults(letterCount)
 });
