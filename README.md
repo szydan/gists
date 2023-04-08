@@ -13,4 +13,5 @@ Collections of gists about programming
 
 ### Simple programs
 
-[nodejs](nodejs/hello-world.md)    
+[hello world](nodejs/hello-world/hello-world.md)    
+[character counter](nodejs/character-counter/character-counter.md)    
