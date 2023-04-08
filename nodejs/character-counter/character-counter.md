@@ -3,7 +3,7 @@
 Let's write a program that's a bit more complex. 
 The program will open a text file, read it's content and count the number each letter occurs in the file.
 At the end the program will print a table with all the letters it found, 
-next to each letter will be a number of how many times that letter occurred.
+there  will be a number next to each letter of how many times that letter occurred.
 
 ### First implementation - memory consumption grows with the size of an input file
 
