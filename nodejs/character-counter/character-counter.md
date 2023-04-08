@@ -95,7 +95,7 @@ only a few hundred bytes.
 However if the file is huge it will use a large amount of memory. 
 
 To fix this we will use another method of reading files (stream).
-Stream in computer programming refers to a data that is continuously flowing from source to a destination. 
+Stream in computer programming refers to a data that is continuously flowing from a source to a destination. 
 When we use a stream to read a file we do not load the whole file into memory at once,
 instead we read it in small chunks, one chunk at any given time. 
 This way our program will only use a small amount of memory at any given time regardless of how big the input file is.
