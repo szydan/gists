@@ -1,6 +1,6 @@
 # Character counter - program memory consumption
  
-Let us write a program that's a bit more complex. 
+Let's write a program that's a bit more complex. 
 The program will open a text file, read it's content and count the number each letter occurs in the file.
 At the end the program will print a table with all the letters it found, 
 next to each letter will be a number of how many times that letter occurred.
