@@ -55,7 +55,7 @@ To execute the program, type:
 node character-count-1.js sample.txt
 ```
 
-Here is the result:
+Here are the results:
 
 ```
 node  character-counter-1.js sample.txt 
