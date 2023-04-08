@@ -196,7 +196,7 @@ Open the activity/process monitor and put `node` in the search bar.
 ![](img/process-monitor.png) 
 
 Now execute each version of the program while looking at the memory column
-You will notice that version 1 is consuming way more memory.
+You'll notice that version 1 is consuming way more memory.
 
 ```sh
 node character-count-1.js sample.txt  
