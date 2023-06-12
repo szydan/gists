@@ -1,0 +1,23 @@
+When comparing the probability of two events occurring together (both being true) versus the probability of
+a single event occurring (one being true), it is generally less probable for the two events to be true simultaneously.
+This principle is known as the conjunction fallacy, which is a cognitive bias that leads people to overestimate
+the probability of specific combinations of events compared to the probability of each individual event.
+
+To understand why the conjunction fallacy occurs, consider the following example:
+
+Event A: "John is a doctor."
+Event B: "John is a doctor and plays the piano."
+
+The conjunction fallacy arises when people perceive Event B as more likely to be true than Event A alone.
+This misconception occurs because the additional condition of playing the piano makes the statement more detailed and
+seemingly more specific, which can lead to a perception of increased likelihood. However, statistically speaking,
+the probability of both conditions being true is inherently lower than the probability of either condition alone.
+
+In general, the likelihood of two events occurring together is influenced by the individual probabilities of each event.
+When events are independent, meaning that the occurrence of one event does not affect the probability of the other event,
+the probability of both events happening is calculated by multiplying their individual probabilities. Therefore,
+the joint probability is lower than the individual probabilities unless there is a dependency between the events.
+
+It is important to note that the conjunction fallacy is a cognitive bias that can lead to errors in decision-making and judgment.
+To make accurate assessments of probabilities, it is crucial to consider the individual probabilities of
+events and the potential dependencies between them.
