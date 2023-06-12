@@ -15,3 +15,7 @@ Collections of gists about programming
 
 [hello world](nodejs/hello-world/hello-world.md)    
 [character counter](nodejs/character-counter/character-counter.md)    
+
+### Biases 
+
+[confirmation bias ](biases/confirmation-bias.md)    
