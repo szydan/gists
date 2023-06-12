@@ -1,3 +1,5 @@
+# Conjunction fallacy
+
 When comparing the probability of two events occurring together (both being true) versus the probability of
 a single event occurring (one being true), it is generally less probable for the two events to be true simultaneously.
 This principle is known as the conjunction fallacy, which is a cognitive bias that leads people to overestimate
@@ -5,8 +7,10 @@ the probability of specific combinations of events compared to the probability o
 
 To understand why the conjunction fallacy occurs, consider the following example:
 
+```
 Event A: "John is a doctor."
 Event B: "John is a doctor and plays the piano."
+```
 
 The conjunction fallacy arises when people perceive Event B as more likely to be true than Event A alone.
 This misconception occurs because the additional condition of playing the piano makes the statement more detailed and
